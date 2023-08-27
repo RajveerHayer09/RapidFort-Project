@@ -46,6 +46,15 @@ The repository includes the following components:
 4. Access the application at: `http://localhost:3000`
 5. Use the UI to upload files and retrieve information.
 
+6. 
+   ![image](https://github.com/RajveerHayer09/RapidFort-Project/assets/91181106/79f50480-ccdc-4a92-ba32-093022e1113f)
+   Simple UI.
+
+7. ![image](https://github.com/RajveerHayer09/RapidFort-Project/assets/91181106/d217ff74-f434-48a5-90af-2eeed890fe4c)
+   Details shown :
+
+
+
 ### Using kubernetes(minikube on a local system)
 1. Clone the GitHub repository: `git clone https://github.com/RajveerHayer09/RapidFort-Project.git`
 2. Navigate to the project directory: `cd your-dir`
