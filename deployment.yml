@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: file-upload-app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: file-upload-app
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: file-upload-container
-        image: your-docker-image-name
+        image: rajveer09/rapid:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 3000
