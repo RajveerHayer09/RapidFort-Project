@@ -22,10 +22,10 @@ jobs:
       run: npm install
 
     - name: Build Docker image
-      run: docker build -t rapidImage .
+      run: docker build -t rapidimage .
 
     - name: Log in to Docker Hub
       run: echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
 
     - name: Push Docker image
-      run: docker push rapidImage
+      run: docker push rapidimage
