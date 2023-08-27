@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: file-upload-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: file-upload-app
+  template:
+    metadata:
+      labels:
+        app: file-upload-app
+    spec:
+      containers:
+      - name: file-upload-container
+        image: your-docker-image-name
+        ports:
+        - containerPort: 5000
